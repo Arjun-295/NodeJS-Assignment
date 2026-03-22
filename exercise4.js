@@ -22,7 +22,7 @@ app.get("/contact", (req, res) => {
 
 // OPTIONAL: default route → home page
 app.get("/", (req, res) => {
-  res.sendFile(path.join(__dirname, "public", "home.html"));
+  res.sendFile(path.join(__dirname, "public", "landing.html"));
 });
 
 app.listen(PORT, () => {
